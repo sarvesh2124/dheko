@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+body {
+    font-family: helvetica;
+    background-image: url(./assets/landingPage.png);
+    margin-top: 7px;
+}
+@font-face {
+    font-family: HelveticaNeueLTProBd;
+    src: url(../src/assets/font/HelveticaNeueLTProBd.otf);
+}
+@font-face {
+    font-family: HelveticaNeueLTProRoman;
+    src: url(../src/assets/font/HelveticaNeueLTProRoman.otf);
+}
+@font-face {
+    font-family: HelveticaNeueLTProIt;
+    src: url(../src/assets/font/HelveticaNeueLTProlt.otf)
+}
