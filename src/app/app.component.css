@@ -37,7 +37,7 @@ border-radius: 25px;
 }
 .left-content {
     display: inline-block;
-    margin-top: 15%;
+    margin-top: 4%;
     width: 40%;
     padding-left: 9%;
 }
@@ -87,10 +87,17 @@ border-radius: 25px;
         display: none;
     }
     .mobile-logo {
-        display: block;
+        display: inline-block;
+        width: 50%;
+        text-align: left;
+    }
+    .button-nav {
+        display: inline-block;
+        text-align: right;
+        width: 50%;
     }
     .navbar-toggler {
-        display: block;
+        display: inline-block !important;
         text-align: left !important;
     }
  
