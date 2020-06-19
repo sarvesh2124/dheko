@@ -1,0 +1,134 @@
+.right-wrapper {
+    display: inline-block;
+width: 50%;
+margin: 0 auto;
+text-align: center;
+float: right;
+}
+.left-wrapper {
+    width: 50%;
+display: inline-block;
+float: left;
+}
+.sign-up-image {
+    width: 100%;
+    height: 100vh;
+}
+.sign-up-wrapper {
+    margin-top: 15%;
+}
+.nav-elements {
+    display: inline-block;
+    margin-right: 15px;
+    font-family: helvetica;
+    color: #343638;
+    opacity: .5;
+    font-size: 11px;
+    font-weight: bold;
+}
+.active {
+    opacity: 1;
+}
+.sign-up-text-box {
+    margin: 10px 0px;
+}
+.sign-up-btn {
+    margin-top: 10px;
+}
+.sign-up-section {
+    width: 60%;
+    margin: 0 auto;
+}
+.terms {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #A0A0A0;
+}
+.terms span {
+    opacity: 1;
+    color: #000;
+    display: inline-block;
+}
+.or {
+    color: #00ADB5;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 15px 0px;
+}
+
+.or:after,.or:before {
+    content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration: line-through;
+    padding: 2%;
+    color: #707070;
+  }
+  .seperator {
+    margin: 15px 0px;
+}
+.other-sign-up-section {
+    width: 60%;
+    margin: 0 auto;
+}
+.other-sign-up {
+    color: #707070;
+    font-size: 17px;
+    font-family: HelveticaNeueLTProIt;
+    border: 1px #00ADB5 solid;
+    border-radius: 5px;
+    margin: 15px 0px;
+}
+.logo {
+    width: 35px;
+    display: inline-block;
+    margin-right: 10px;
+    height: 40px;
+    vertical-align: middle;
+    padding-top: 3px;
+}
+.logo img {
+    width: 100%;
+}
+.logo-text {
+    display: inline-block;
+}
+.sign-up-text {
+    display: inline-block;
+    color: #00ADB5;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 15px;
+}
+.text-wrapper {
+    text-align: left;
+}
+.logo-sign-up img {
+    width: 100px;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .left-wrapper {
+        display: none !important;
+    }
+    .sign-up-outer-wrapper {
+        text-align: center;
+    }
+    .right-wrapper {
+        display: inline-block;
+        width: 320px;
+        margin: 0 auto;
+        text-align: center;
+        clear: both;
+        float: none;
+    }
+    .sign-up-section {
+        width: 100%;
+    }
+    .or:after,.or:before{
+        content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    }
+    .other-sign-up {
+        font-size: 15px;
+    }
+    .sign-up-wrapper{
+        margin-top: 30%;
+    }
+}

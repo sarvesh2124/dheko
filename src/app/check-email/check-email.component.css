@@ -1,0 +1,70 @@
+.left-wrapper {
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+.right-wrapper {
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    float: right;
+}
+.nav-elements {
+    display: inline-block;
+    margin-right: 15px;
+    font-family: helvetica;
+    color: #343638;
+    opacity: .5;
+    font-size: 11px;
+    font-weight: bold;
+}
+.active {
+    opacity: 1;
+}
+.sign-up-image {
+    width: 100%;
+    height: 100vh;
+}
+.logo-sign-up img {
+    width: 100px;
+}
+.text-content {
+    color: #AAA3A3;
+    font-size: 44px;
+    font-family: HelveticaNeueLTProBd;
+    margin-top: 20px;
+}
+.text-outer-wrapper {
+    width: 70%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 15%;
+}
+.email-text {
+    font-family: HelveticaNeueLTProIt;
+    font-size: 30px;
+    color: #AAA3A3;
+    margin-top: 20px;
+}
+.email-text span {
+    color: #00ADB5;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .left-wrapper {
+        display: none !important;
+    }
+    .right-wrapper {
+        float: none;
+        width: 100%;
+    }
+    .text-outer-wrapper {
+        width: 320px;
+    }
+    .text-content {
+        font-size: 35px;
+    }
+    .email-text {
+        font-size: 20px;
+    }
+}
