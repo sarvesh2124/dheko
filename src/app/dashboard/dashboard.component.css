@@ -37,8 +37,8 @@ border-radius: 25px;
 }
 .left-content {
     display: inline-block;
-    margin-top: 1%;
-    width: 40%;
+    margin-top: 7%;
+    width: 100%;
     padding-left: 7%;
 }
 .right-content {
@@ -46,8 +46,11 @@ border-radius: 25px;
     width: 60%;
 }
 .right-content-image {
-    width: 100%;
+    width: 60%;
     text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 .stay-connect {
     color: #00ADB5;
@@ -105,7 +108,29 @@ width: 35%;
 .nav-item-desktop {
     display: inline-block;
 }
+.outer-wrapper {
+    padding-top: 6%;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .right-content-image {
+        width: 100%;
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
 @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .right-content-image {
+        width: 100%;
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .left-content {
+        width: 100%;
+    }
     .desktop-logo {
         display: none;
     }
@@ -156,5 +181,14 @@ width: 35%;
     }
     .mobile-nav {
         display: block;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) and (orientation: landscape) { 
+    .right-content-image {
+        width: 50%;
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+        right: 0;
     }
 }
