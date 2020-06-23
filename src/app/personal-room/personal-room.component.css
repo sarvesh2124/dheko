@@ -1,0 +1,154 @@
+.left-menu {
+    width: 20%;
+    display: inline-block;
+    height: 100vh;
+}
+.personal-room-wrapper {
+    width: 80%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+}
+.user-text-wrapper {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #00ADB5;
+    font-family: HelveticaNeueLTProRoman;
+    color: #00ADB5;
+    font-size: 36px;
+    padding: 20px 0px;
+}
+span.image-text {
+    position: absolute;
+    left: 11px;
+    top: 18px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: helvetica;
+}
+span.image-wrapper {
+    position: relative;
+    vertical-align: middle;
+}
+.content-wrapper {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.left-content-wrapper {
+    width: 60%;
+    display: inline-block;
+    text-align: center;
+    border: 1px #00ADB5 solid;
+    margin-right: 3%;
+}
+.right-content-wrapper {
+    width: 37%;
+    display: inline-block;
+    border: 1px #00ADB5 solid;
+    vertical-align: top;
+    padding: 2% 1% 1.5% 1%;
+    font-family: helvetica;
+    font-weight: bold;
+}
+.upcoming-text {
+    color: #00ADB5;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.time {
+    font-size: 15px;
+    color: #343638;
+    opacity: 0.6;
+}
+.meeting-heading {
+    font-size: 15px;
+    color: #343638;
+    opacity: .9;
+}
+.meeting-time {
+    font-size: 15px;
+    color: #343638;
+    opacity: .6;
+}
+.meeting-content {
+    display: inline-block;
+    vertical-align: middle;
+}
+button.pr-btn {
+    margin: 20px 0px;
+    font-weight: bold;
+}
+button.pr-btn2  {
+    color: #00adb5;
+    background: transparent;
+    border: 1px #00adb5 solid;
+}
+.button-wrapper {
+    width: 35%;
+    margin: 10% auto;
+}
+.box-image {
+    width: 30px;
+    display: inline-block;
+    height: 30px;
+    position: relative;
+}
+.meeting {
+    background-color: #fff;
+    box-shadow: 0px 2.5px #3436382e;
+    border-radius: 3px;
+    margin: 10px 0;
+    padding: 5px;
+}
+.meeting-image {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    margin-left: 10px;
+}
+.box-image img {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    vertical-align: text-bottom;
+}
+span.user-title {
+    margin-left: 15px;
+    vertical-align: middle;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) { 
+    .left-menu {
+        width: 100%;
+        height: auto;
+    }
+    .user-text-wrapper {
+        font-size: 20px;
+    }
+    span.image-text {
+        top: 10px;
+    }
+    
+    .left-content-wrapper {
+        width: 100%;
+    }
+    .button-wrapper {
+        width: 60%;
+    }
+    .personal-room-wrapper {
+        width: 100%;
+    }
+    .right-content-wrapper {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 2% 3% 1.5% 3%;
+    }
+    .meeting-heading {
+        font-size: 12px;
+    }
+    .meeting-time {
+        font-size: 12px;
+    }
+}

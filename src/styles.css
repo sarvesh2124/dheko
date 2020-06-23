@@ -2,19 +2,20 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 body {
     font-family: helvetica;
-    background-image: url(./assets/landingPage.png);
+    background-image: url(/assets/landingPage.png);
+    background-size: 100% auto;
 }
 @font-face {
     font-family: HelveticaNeueLTProBd;
-    src: url(../src/assets/font/HelveticaNeueLTProBd.otf);
+    src: url(/assets/font/HelveticaNeueLTProBd.otf);
 }
 @font-face {
     font-family: HelveticaNeueLTProRoman;
-    src: url(../src/assets/font/HelveticaNeueLTProRoman.otf);
+    src: url(/assets/font/HelveticaNeueLTProRoman.otf);
 }
 @font-face {
     font-family: HelveticaNeueLTProIt;
-    src: url(../src/assets/font/HelveticaNeueLTProlt.otf)
+    src: url(/assets/font/HelveticaNeueLTProlt.otf)
 }
 html {
     height: 100%;
@@ -46,4 +47,12 @@ opacity: 0.6;
 .btn:hover {
     color: #fff;
     text-decoration: none;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) { 
+    html {
+        overflow: visible;
+    }
+    body {
+        position: relative;
+    }
 }
