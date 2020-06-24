@@ -101,6 +101,10 @@ vertical-align: text-bottom;
 .meeting-table tr.table-row td {
     padding: 20px 0px;
     padding-left: 10px;
+    vertical-align: top;
+}
+.hexa-img img{
+    border-radius: 0px !important;
 }
 @media only screen and (min-width: 320px) and (max-width: 768px) { 
     .left-menu {
@@ -149,6 +153,9 @@ vertical-align: text-bottom;
     }
     .meeting-table tr.table-row {
         font-size: 11px;
+    }
+    .meeting-table tr.table-header {
+        font-size: 15px;
     }
     
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-left-menu',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./left-menu.component.css']
 })
 export class LeftMenuComponent implements OnInit {
-
-  constructor() { }
+  currentUrl: any;
+  constructor(private router: Router) { 
+    this.currentUrl = this.router.url;
+  }
 
   ngOnInit(): void {
+    
   }
 
 }
