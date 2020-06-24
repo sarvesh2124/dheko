@@ -6,6 +6,7 @@ import { CheckEmailComponent } from './check-email/check-email.component';
 import { LeftMenuComponent } from './left-menu/left-menu.component';
 import { PersonalRoomComponent } from './personal-room/personal-room.component';
 import { ScheduleComponent } from './schedule/schedule.component';
+import { MeetingsComponent } from './meetings/meetings.component'
 
 const routes: Routes = [
   {path: 'sign-up',component: SignUpComponent},
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path: 'menu', component: LeftMenuComponent},
   {path: 'home', component: PersonalRoomComponent},
   {path: 'schedule', component: ScheduleComponent},
+  {path: 'meetings', component: MeetingsComponent},
   {path: '**', component: DashboardComponent}
 ];
 

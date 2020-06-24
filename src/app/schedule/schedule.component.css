@@ -117,7 +117,7 @@ span.user-title {
     margin-left: 15px;
     vertical-align: middle;
 }
-label {
+.schedule-wrapper label {
     width: 17%;
     text-align: left;
 }
@@ -125,8 +125,12 @@ label {
 input.text-box.sign-up-text-box {
     width: 83%;
 }
+
+.schedule-wrapper .text-box {
+    height: 35px;
+}
 textarea.text-box.sign-up-text-box {
-    height: 80px;
+    height: 70px !important;
     width: 83%;
     vertical-align: middle;
 }
@@ -144,6 +148,57 @@ textarea.text-box.sign-up-text-box {
 }
 .form-item.calendar-item span input, .form-item.calendar-item span label , .form-item.calendar-item span button {
     width: 100%;
+}
+span.cal-time {
+    margin-right: 5%;
+}
+span.cal-date {
+    margin-right: 5%;
+}
+.cal-image {
+    background-image: url(/assets/calendar-2-line.svg);
+    background-repeat: no-repeat;
+    background-position: 115px 5px;
+}
+.dropdown-toggle::after {
+    float: right;
+    margin-top: 10px;
+    margin-right: 5%;
+}
+button.dropdown-toggle.text-box {
+    text-align: left;
+}
+button.dropdown-toggle.text-box.timezone {
+    width: 83%;
+    border: none;
+    padding: 0;
+}
+button:focus {
+    outline: none;
+}
+.schedule-wrapper label {
+    font-size: 17px;
+    font-family: HelveticaNeueLTProIt;
+    color: #AAA3A3;
+}
+.schedule-wrapper .calendar-item label {
+    font-size: 15px;
+    margin: 0;
+}
+.schedule-button {
+    width: 83%;
+    margin-left: 17%;
+    margin-top: 20px;
+}
+.schedule-wrapper ul.dropdown-menu.show {
+    text-align: center;
+    background-color: #00adb5;
+}
+.schedule-wrapper ul.dropdown-menu.show a {
+    color: #fff !important;
+}
+.mandatory {
+    color: red;
 }
 @media only screen and (min-width: 320px) and (max-width: 768px) { 
     .left-menu {
@@ -177,5 +232,61 @@ textarea.text-box.sign-up-text-box {
     }
     .meeting-time {
         font-size: 12px;
+    }
+    .schedule-wrapper label {
+        font-size: 12px;
+    }
+    .schedule-wrapper .text-box {
+        height: 25px;
+        font-size: 12px;
+    }
+    textarea.text-box.sign-up-text-box {
+        height: 50px !important;
+    }
+    .schedule-wrapper .calendar-item label {
+        font-size: 12px;
+        margin: 0;
+    }
+    .form-item.calendar-item {
+        width: 100%;
+        margin: 0;
+    }
+    .form-item.calendar-item span input, 
+    .form-item.calendar-item span button {
+        width: 65%;
+    }
+    .form-item.calendar-item span label {
+        width: 35%;
+    }
+    .form-item.calendar-item span {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .schedule-wrapper label {
+        width: 35%;
+    }
+    input.text-box.sign-up-text-box, textarea.text-box.sign-up-text-box,button.dropdown-toggle.text-box.timezone {
+        width: 65% !important;
+    }
+    button.dropdown-toggle.text-box.timezone {
+        white-space: break-spaces;
+    }
+    .dropdown-toggle::after {
+        margin-top: 8px;
+    }
+    button.dropdown-toggle.text-box.timezone::after {
+        margin-top: 0;
+        font-size: 15px;
+    }
+    .schedule-button {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .cal-image {
+        background-position: 90% 0px;
+    }
+    button.dropdown-toggle.text-box.timezone {
+        width: 65% !important;
     }
 }

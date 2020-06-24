@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
@@ -10,6 +10,8 @@ import { LeftMenuComponent } from './left-menu/left-menu.component';
 import { PersonalRoomComponent } from './personal-room/personal-room.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { ScheduleComponent } from './schedule/schedule.component';
+import { MeetingsComponent } from './meetings/meetings.component';
+
 
 @NgModule({
   declarations: [
@@ -20,11 +22,13 @@ import { ScheduleComponent } from './schedule/schedule.component';
     LeftMenuComponent,
     PersonalRoomComponent,
     SearchBarComponent,
-    ScheduleComponent
+    ScheduleComponent,
+    MeetingsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

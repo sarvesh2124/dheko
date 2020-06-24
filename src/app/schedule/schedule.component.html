@@ -7,23 +7,24 @@
         <span class="image-wrapper">
             <span class="box-image"><img src="/assets/Group 2784.png"><span class="image-text">DJ</span></span>
         </span>
-        <span class="user-title"> Dav Joe's Personal Room</span>
+        <span class="user-title"> Dav Joe's Schedule</span>
     </div>
     <div class="content-wrapper">
-        <div class="left-content-wrapper">
+        <div class="left-content-wrapper schedule-wrapper">
             <div class="form-item" style="margin-top: 0px;">
-                <label>Topic</label>
+                <label>Topic<span class="mandatory">*</span></label>
                 <input type="text" class="text-box sign-up-text-box" placeholder="Enter the meeting topic...">
             </div>
             <div class="form-item">
-                <label>Agenda</label>
+                <label>Agenda<span class="mandatory">*</span></label>
                 <textarea rows="3" class="text-box sign-up-text-box"
                     placeholder="Enter the meeting agenda..."></textarea>
             </div>
             <div class="form-item calendar-item">
                 <span class="cal-date">
                     <label>Date</label>
-                    <input type="date" class="text-box">
+                    <input type="text" class="text-box cal-image" placeholder="20 June 2020">
+                    
                 </span>
                 <span class="cal-time">
                     <label>Time</label>
@@ -38,6 +39,21 @@
                         <li><a href="#">1 Hr</a></li>
                     </ul>
                 </span>
+            </div>
+            <div class="form-item">
+                <label>Timezone</label>
+                <button class="dropdown-toggle text-box timezone" type="button" data-toggle="dropdown">( GMT 5:30 ) India Standard Time (Asia/Kolkata)</button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">( GMT 5:30 ) India Standard Time (Asia/Kolkata)</a></li>
+                    </ul>
+            </div>
+            <div class="form-item">
+                <label>Participants</label>
+                <textarea rows="3" class="text-box sign-up-text-box"
+                    placeholder="Separate email addresses with commas or press enter"></textarea>
+            </div>
+            <div class="schedule-button">
+                <button class="btn">Schedule</button>
             </div>
         </div>
         <div class="right-content-wrapper">
