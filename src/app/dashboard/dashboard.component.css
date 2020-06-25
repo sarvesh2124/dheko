@@ -111,6 +111,9 @@ width: 35%;
 .outer-wrapper {
     padding-top: 6%;
 }
+.desktop-logo img {
+    width: 50%;
+}
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .right-content-image {
         width: 100%;
@@ -136,8 +139,11 @@ width: 35%;
     }
     .mobile-logo {
         display: inline-block;
-        width: 50%;
+        width: 35%;
         text-align: left;
+    }
+    .mobile-logo img {
+        width: 100%;
     }
     .button-nav {
         display: inline-block;
@@ -182,6 +188,7 @@ width: 35%;
     .mobile-nav {
         display: block;
     }
+    
 }
 @media only screen and (min-width: 320px) and (max-width: 768px) and (orientation: landscape) { 
     .right-content-image {

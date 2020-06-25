@@ -11,6 +11,7 @@ import { PersonalRoomComponent } from './personal-room/personal-room.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { MeetingsComponent } from './meetings/meetings.component';
+import { PasswordComponent } from './password/password.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { MeetingsComponent } from './meetings/meetings.component';
     PersonalRoomComponent,
     SearchBarComponent,
     ScheduleComponent,
-    MeetingsComponent
+    MeetingsComponent,
+    PasswordComponent
   ],
   imports: [
     BrowserModule,

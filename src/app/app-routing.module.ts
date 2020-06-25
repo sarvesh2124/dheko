@@ -7,6 +7,7 @@ import { LeftMenuComponent } from './left-menu/left-menu.component';
 import { PersonalRoomComponent } from './personal-room/personal-room.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { MeetingsComponent } from './meetings/meetings.component'
+import { PasswordComponent } from './password/password.component';
 
 const routes: Routes = [
   {path: 'sign-up',component: SignUpComponent},
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path: 'home', component: PersonalRoomComponent},
   {path: 'schedule', component: ScheduleComponent},
   {path: 'meetings', component: MeetingsComponent},
+  {path: 'password', component: PasswordComponent},
   {path: '**', component: DashboardComponent}
 ];
 

@@ -192,10 +192,13 @@ button:focus {
 }
 .schedule-wrapper ul.dropdown-menu.show {
     text-align: center;
-    background-color: #00adb5;
+    background-color: #fff;
+    text-align: left;
 }
 .schedule-wrapper ul.dropdown-menu.show a {
-    color: #fff !important;
+    color: #AAA3A3!important;
+    padding: 5px;
+    display: inline-block;
 }
 .mandatory {
     color: red;
@@ -291,5 +294,22 @@ button:focus {
     }
     button.dropdown-toggle.text-box.timezone {
         width: 65% !important;
+    }
+    span.cal-duration.show ul {
+        width: 62%;
+    }
+    .schedule-wrapper ul.dropdown-menu.show a {
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { 
+    .schedule-wrapper label {
+        font-size: 15px;
+    }
+    .meeting-time {
+        font-size: 10px;
+    }
+    .meeting-heading {
+        font-size: 14px;
     }
 }

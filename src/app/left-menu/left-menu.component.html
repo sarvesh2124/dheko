@@ -7,8 +7,14 @@
             Dav Joe
         </div>
         <div class="arrow">
-            <img src="assets/down-arrow.png">
+            <img src="assets/down-arrow.png" (click)="userAccountToogle()">
         </div>
+    </div>
+    <div class="user-account" *ngIf="myAccount">
+        <div class="account-title">My Account</div>
+        <div class="account-item">Edit Profile</div>
+        <div class="account-item">Change Password</div>
+        <div class="account-item">Payment History</div>
     </div>
     <div class="menu-wrapper">
         <div class="menu-item" [class.active-menu]="currentUrl == '/home'">
@@ -50,8 +56,14 @@
                     Dav Joe
                 </div>
                 <div class="arrow">
-                    <img src="assets/down-arrow.png">
+                    <img src="assets/down-arrow.png" (click)="userAccountToogle()">
                 </div>
+            </div>
+            <div class="user-account" *ngIf="myAccount">
+                <div class="account-title">My Account</div>
+                <div class="account-item">Edit Profile</div>
+                <div class="account-item">Change Password</div>
+                <div class="account-item">Payment History</div>
             </div>
           <div class="navbar-nav menu-wrapper">
             <div class="menu-item" [class.active-menu]="currentUrl == '/home'">

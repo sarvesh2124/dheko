@@ -98,6 +98,24 @@
     display: inline-block;
     margin-left: 15px;
 }
+
+.user-account {
+    font-weight: bold;
+    font-family: helvetica;
+    margin-top: 10px;
+    background-color: #45c6cb;
+}
+.account-title {
+    text-align: center;
+    font-size: 17px;
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+.account-item {
+    font-size: 15px;
+    padding: 15px 25px;
+}
 @media only screen and (min-width: 320px) and (max-width: 768px) { 
     .desktop-menu {
         display: none;
@@ -123,7 +141,7 @@
         margin: 10px 0px;
     }
     .mobile-logo {
-        width: 40%;
+        width: 35%;
     }
     .mobile-logo img {
         width: 100%;

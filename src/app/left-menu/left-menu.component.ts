@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 })
 export class LeftMenuComponent implements OnInit {
   currentUrl: any;
+  myAccount: boolean;
   constructor(private router: Router) { 
     this.currentUrl = this.router.url;
   }
@@ -15,5 +16,7 @@ export class LeftMenuComponent implements OnInit {
   ngOnInit(): void {
     
   }
-
+  userAccountToogle () {
+    this.myAccount = !this.myAccount;
+  }
 }

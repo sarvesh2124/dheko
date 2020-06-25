@@ -155,3 +155,11 @@ span.user-title {
         font-size: 12px;
     }
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { 
+    .meeting-time {
+        font-size: 10px;
+    }
+    .meeting-heading {
+        font-size: 14px;
+    }
+}
