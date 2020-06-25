@@ -2,20 +2,20 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 body {
     font-family: helvetica;
-    background-image: url(/assets/honeycombfinal.jpg);
+    background-image: url(assets/honeycombfinal.jpg);
     background-size: 100% auto;
 }
 @font-face {
     font-family: HelveticaNeueLTProBd;
-    src: url(/assets/font/HelveticaNeueLTProBd.otf);
+    src: url(assets/font/HelveticaNeueLTProBd.otf);
 }
 @font-face {
     font-family: HelveticaNeueLTProRoman;
-    src: url(/assets/font/HelveticaNeueLTProRoman.otf);
+    src: url(assets/font/HelveticaNeueLTProRoman.otf);
 }
 @font-face {
     font-family: HelveticaNeueLTProIt;
-    src: url(/assets/font/HelveticaNeueLTProlt.otf)
+    src: url(assets/font/HelveticaNeueLTProlt.otf)
 }
 html {
     height: 100%;
