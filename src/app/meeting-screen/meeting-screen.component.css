@@ -1,0 +1,116 @@
+.meeting-left-screen {
+    width: 20%;
+    height: 100vh;
+    display: inline-block;
+    background-color: #ffffffc9;
+    padding-top: 2%;
+    border: 1px solid #00adb5;
+    position: absolute;
+}
+
+.meeting-main-screen {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    height: 100vh;
+    background-image: url(/assets/meeting-image1.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.dheko-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.dheko-logo {
+    width: 150px;
+    text-align: right;
+    margin-left: 75%;
+    margin-top: 30px;
+}
+.meeting-right-float-screen {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    background: #00adb59e;
+    border-radius: 10px 0px 0px 10px;
+}
+.person-wrapper {
+    background-image: url(/assets/meeting-image1.png);
+    background-size: 100% 100%;
+    width: 207px;
+    height: 157px;
+    border-radius: 15px;
+    margin: 0 auto;
+    box-shadow: 4px 4.5px #00000012;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.person-elements {
+    position: absolute;
+    bottom: 0;
+    background-color: #ffffffa3;
+    padding: 0px 5px;
+}
+
+span.element {
+    margin-right: 7px;
+}
+
+span.name.element {
+    color: #707070;
+    font-size: 15px;
+    font-family: HelveticaNeueLTProIt;
+}
+.float-screen-wrapper {
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.float-image img {
+    width: 70%;
+}
+
+.float-text {
+    font-family: HelveticaNeueLTProIt;
+    font-size: 15px;
+    color: #F5F5F5;
+}
+
+.image-text-wrapper {
+    margin-bottom: 15px;
+}
+.plus-icon {
+    text-align: center;
+    width: 40px;
+    position: absolute;
+    bottom: 90px;
+    right: 15px;
+}
+.plus-icon img {
+    border-radius: 25px;
+    background-color: #fff;
+    width: 100%;
+    border: .5px #42b7bd solid;
+}
+.call-button-wrapper {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40%;
+}
+span.call-button img {
+    width: 72px;
+    height: 72px;
+}
+span.call-button {
+    margin-right: 10px;
+}
+span.element.mic img {
+    width: 12px;
+}
+span.element.mic.mic-off img {
+    width: 15px;
+}

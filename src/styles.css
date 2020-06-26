@@ -2,7 +2,7 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 body {
     font-family: helvetica;
-    background-image: url(assets/honeycombfinal.jpg);
+    background-image: url(assets/landingPage1.jpg);
     background-size: 100% auto;
 }
 @font-face {
@@ -54,5 +54,12 @@ opacity: 0.6;
     }
     body {
         position: relative;
+        background-image: url(assets/websitemobile.jpg);
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) { 
+    body {
+        position: relative;
+        background-image: url(assets/websiteipad.jpg);
     }
 }

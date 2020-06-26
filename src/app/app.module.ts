@@ -12,6 +12,9 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { MeetingsComponent } from './meetings/meetings.component';
 import { PasswordComponent } from './password/password.component';
+import { MeetingScreenComponent } from './meeting-screen/meeting-screen.component';
+import { ChatBoxComponent } from './chat-box/chat-box.component';
+import { ParticipantBoxComponent } from './participant-box/participant-box.component';
 
 
 @NgModule({
@@ -25,7 +28,10 @@ import { PasswordComponent } from './password/password.component';
     SearchBarComponent,
     ScheduleComponent,
     MeetingsComponent,
-    PasswordComponent
+    PasswordComponent,
+    MeetingScreenComponent,
+    ChatBoxComponent,
+    ParticipantBoxComponent
   ],
   imports: [
     BrowserModule,

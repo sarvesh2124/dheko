@@ -1,0 +1,140 @@
+.chat-box {
+    position: absolute;
+    width: 30%;
+    background-color: #ffffffc9;
+    z-index: 10;
+    height: 100vh;
+}
+.dheko-logo img {
+    width: 100%;
+}
+
+.dheko-logo {
+   display: inline-block;
+   width: 18%;
+}
+
+.chat-text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 70%;
+    text-align: center;
+    color: #707070;
+}
+
+.chat-close {
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+}
+.chat-header {
+    padding: 10px;
+}
+
+.chat-box {
+    font-family: HelveticaNeueLTProIt;
+    border-bottom: 1px #00adb5 solid;
+    border-right: 1px solid #00adb5;
+}
+.chat-when {
+    font-size: 18px;
+    color: #707070;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.other-chat {
+    text-align: left;
+    width: 70%;
+    margin-left: 20px;
+}
+span.name-img img {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+span.name-text {
+    color: #707070;
+    font-size: 13px;
+}
+.other-text {
+    margin-top: 10px;
+}
+
+.text-box {
+    padding-top: 7px;
+    border: 1px #707070 solid;
+}
+
+.chat-time {
+    font-size: 10px;
+    text-align: right;
+    padding-right: 5px;
+    color: #707070;
+}
+.my-chat {
+    width: 70%;
+    text-align: right;
+    margin-left: 26%;
+    margin-top: 20px;
+}
+
+.my-chat .text-box {
+    width: 70%;
+    margin-left: 30%;
+    border: 1px #00adb5 solid;
+    padding-right: 5px;
+}
+.chat-header {
+    border-bottom: 1px #00adb5 solid;
+}
+.mychat-box {
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 50px;
+    border: 1px #00adb5 solid;
+    border-radius: 5px;
+    left: 20px;
+}
+.mychat-header {
+    border-bottom: 1px #00adb5 solid;
+}
+.header-left {
+    display: inline-block;
+    width: 80%;
+    padding-left: 5px;
+}
+.header-right {
+    display: inline-block;
+    width: 20%;
+}
+span.chat-dropdown button {
+    width: 110px;
+    border: none !important;
+    outline: none;
+}
+span.attach-image {
+    margin-right: 10px;
+}
+.header-left {
+    font-family: HelveticaNeueLTProIt;
+    font-size: 15px;
+}
+button.dropdown-toggle.text-box {
+    padding-left: 0px;
+}
+.mychat-box {
+    color: #707070;
+    font-size: 15px;
+}
+input.text-box.chat {
+    border: none;
+    height: 77px;
+}
+
+span.chat-dropdown.show li {
+    font-size: 15px;
+    color: #707070;
+}

@@ -1,0 +1,102 @@
+<div class="meeting-screen-outer-wrapper">
+    <div class="chat-box-wrapper" *ngIf="chatBoxToggle">
+       <app-chat-box></app-chat-box>
+    </div>
+    <div class="participant-box-wrapper" *ngIf="partcipantBoxToggle">
+        <app-participant-box></app-participant-box>
+    </div>
+    <div class="meeting-left-screen" *ngIf="layoutToggle">
+        <div class="person-wrapper">
+            <div class="person-elements">
+                <span class="element mic"><img src="assets/mic11.png"></span>
+                <span class="element"><img src="assets/video.svg"></span>
+                <span class="element"><img src="assets/pan_tool-24px.svg"></span>
+                <span class="name element">Nandi</span>
+            </div>
+        </div>
+        <div class="person-wrapper">
+            <div class="person-elements">
+                <span class="element mic mic-off"><img src="assets/mic-off.svg"></span>
+                <span class="element"><img src="assets/video0n.svg"></span>
+                <span class="element"><img src="assets/pan-off.svg"></span>
+                <span class="name element">Nandi</span>
+            </div>
+        </div>
+        <div class="person-wrapper">
+            <div class="person-elements">
+                <span class="element mic"><img src="assets/mic11.png"></span>
+                <span class="element"><img src="assets/video.svg"></span>
+                <span class="element"><img src="assets/pan_tool-24px.svg"></span>
+                <span class="name element">Nandi</span>
+            </div>
+        </div>
+        <div class="person-wrapper">
+            <div class="person-elements">
+                <span class="element mic"><img src="assets/mic11.png"></span>
+                <span class="element"><img src="assets/video.svg"></span>
+                <span class="element"><img src="assets/pan_tool-24px.svg"></span>
+                <span class="name element">Nandi</span>
+            </div>
+        </div>
+    </div>
+    <div class="meeting-right-float-screen" *ngIf="floatpanelToggle">
+        <div class="float-screen-wrapper">
+            <div class="image-text-wrapper">
+                <div class="float-image">
+                    <img src="assets/group-line.svg">
+                </div>
+                <div class="float-text">
+                    Invite
+                </div>
+            </div>
+            <div class="image-text-wrapper">
+                <div class="float-image">
+                    <img src="assets/record-circle-line (1).svg">
+                </div>
+                <div class="float-text">
+                    Record
+                </div>
+            </div>
+            <div class="image-text-wrapper" (click)="layout()">
+                <div class="float-image">
+                    <img src="assets/layout-4-line.svg">
+                </div>
+                <div class="float-text">
+                    Layout
+                </div>
+            </div>
+            <div class="image-text-wrapper">
+                <div class="float-image">
+                    <img src="assets/lock-2-line.svg">
+                </div>
+                <div class="float-text">
+                    Lock
+                </div>
+            </div>
+            <div class="image-text-wrapper">
+                <div class="float-image">
+                    <img src="assets/tools-fill.svg">
+                </div>
+                <div class="float-text">
+                    Tools
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="meeting-main-screen">
+        <div class="dheko-logo">
+            <img src="assets/dhekologo.png">
+        </div>
+        <div class="call-button-wrapper">
+            <span class="call-button mic"><img src="assets/mic1.png"></span>
+            <span class="call-button video"><img src="assets/video1.png"></span>
+            <span class="call-button group" (click)="partcipantBox()"><img src="assets/group1.png"></span>
+            <span class="call-button share"><img src="assets/share1.png"></span>
+            <span class="call-button chat" (click)="chatBox()"><img src="assets/chat1.png"></span>
+            <span class="call-button end"><img src="assets/end1.png"></span>
+        </div>
+        <div class="plus-icon" (click)="floatPanel()">
+            <img src="assets/add-line.svg">
+        </div>
+    </div>
+</div>
