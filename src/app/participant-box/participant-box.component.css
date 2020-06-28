@@ -146,7 +146,7 @@ button.btn.participant-btn.active {
 .participant-text input.text-box {
     background-image: url(/assets/finder.png);
     background-repeat: no-repeat;
-    background-position: 268px 10px;
+    background-position: 233px 10px;
 }
 .participant-mic.mic-off img {
     width: 16px;
@@ -156,4 +156,9 @@ button.btn.participant-btn.mute {
 }
 button.btn.participant-btn.invite {
     width: 70px;
+}
+.participant-close 
+, .user-tools span
+{
+    cursor: pointer;
 }

@@ -2,7 +2,7 @@
     position: absolute;
     width: 958px;
     height: 470px;
-    background: #ffffffc9;
+    background: #ffffffeb;
     left: 20%;
     top: 25px;
     z-index: 1;
@@ -95,4 +95,8 @@ button.btn.cancel-button {
     color: #00adb5;
     background: #fff;
     border: 1px #00adb5 solid;
+}
+.share-close
+{
+    cursor: pointer;
 }

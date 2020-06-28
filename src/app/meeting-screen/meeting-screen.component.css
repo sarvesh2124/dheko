@@ -101,11 +101,11 @@ span.name.element {
     text-align: center;
     position: absolute;
     bottom: 80px;
-    left: 35%;
+    left: 37%;
 }
 span.call-button img {
-    width: 72px;
-    height: 72px;
+    width: 62px;
+    height: 62px;
 }
 span.call-button {
     margin-right: 25px;
@@ -157,4 +157,8 @@ img.no-video-image {
     font-size: 20px;
     font-family: HelveticaNeueLTProItcondensed;
     vertical-align: middle;
+}
+span.call-button img, .image-text-wrapper, .plus-icon
+{
+    cursor: pointer;
 }

@@ -159,3 +159,6 @@ vertical-align: text-bottom;
     }
     
 }
+.meeting-item {
+    cursor: pointer;
+}

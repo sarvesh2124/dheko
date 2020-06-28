@@ -2,7 +2,7 @@
     position: absolute;
     width: 40%;
     height: 470px;
-    background: #ffffffc9;
+    background: #ffffffeb;
     left: 35%;
     top: 25px;
     z-index: 1;
@@ -82,4 +82,8 @@ span.invite-logo {
 }
 .invite-box textarea.text-box.sign-up-text-box {
     height: 90px;
+}
+.invite-close
+{
+    cursor: pointer;
 }

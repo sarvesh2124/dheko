@@ -147,3 +147,6 @@
         width: 100%;
     }
 }
+.arrow img, .menu-wrapper .menu-item {
+    cursor: pointer;
+}

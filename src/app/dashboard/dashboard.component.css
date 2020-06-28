@@ -199,3 +199,16 @@ width: 35%;
         right: 0;
     }
 }
+
+.nav-item-desktop.sign-up-free {
+    cursor: pointer;
+}
+
+.nav-item-desktop.join-meeting {
+    cursor: pointer;
+}
+
+
+.desktop-logo.nav-item-desktop img {
+    cursor: pointer;
+}

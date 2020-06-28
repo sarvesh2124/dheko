@@ -35,6 +35,14 @@
     width: 60%;
     padding: 20px 10px;
 }
+.desktop-logo img {
+    cursor: pointer;
+}
+input.text-box.menu-textbox.search-textbox.sign-up-text-box {
+    background-image: url(/assets/finder.png);
+    background-repeat: no-repeat;
+    background-position: 263px 10px;
+}
 @media only screen and (min-width: 320px) and (max-width: 768px) { 
     .desktop-menu {
         display: none;

@@ -139,3 +139,7 @@ span.chat-dropdown.show li {
     font-size: 15px;
     color: #707070;
 }
+.chat-close
+{
+    cursor: pointer;
+}
