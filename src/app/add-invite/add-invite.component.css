@@ -1,0 +1,85 @@
+.invite-wrapper {
+    position: absolute;
+    width: 40%;
+    height: 470px;
+    background: #ffffffc9;
+    left: 35%;
+    top: 25px;
+    z-index: 1;
+    border: 1px #00adb5 solid;
+}
+.invite-header {
+    padding: 15px;
+    padding-top: 25px;
+}
+span.invite-logo {
+    margin-right: 5px;
+}
+
+.invite-header div {
+    display: inline-block;
+}
+.invite-dheko-logo {
+    width: 10%;
+}
+
+.invite-text {
+    width: 85%;
+    text-align: center;
+}
+
+.invite-close {
+    width: 18px;
+    text-align: right;
+}
+
+.invite-dheko-logo img {
+    width: 90px;
+}
+.invite-text {
+    color: #707070;
+    vertical-align: middle;
+    font-size: 22px;
+    font-family: HelveticaNeueLTProRoman;
+}
+.invite-email-header {
+    color: #AAA3A3;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.invite-box input {
+    /* width: 383px; */
+    height: 83px;
+}
+
+.invite-body {
+    width: 67%;
+    margin: 0 auto;
+}
+
+.invite-send {
+    width: 35%;
+    margin-top: 20px;
+}
+
+.invite-send .btn {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 22px;
+    font-family: HelveticaNeueLTProItcondensed;
+}
+.share-link-text {
+    font-family: HelveticaNeueLTProItcondensed;
+    font-size: 20px;
+    color: #707070;
+    margin-top: 20px;
+}
+.share-link {
+    font-size: 16px;
+    color: #707070;
+    font-family: HelveticaNeueLTProItcondensed;
+}
+.invite-box textarea.text-box.sign-up-text-box {
+    height: 90px;
+}

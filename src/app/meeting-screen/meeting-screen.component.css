@@ -13,7 +13,7 @@
     display: inline-block;
     vertical-align: top;
     height: 100vh;
-    background-image: url(/assets/meeting-image1.png);
+    background-image: url(/assets/lady2.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
@@ -25,7 +25,7 @@
 .dheko-logo {
     width: 150px;
     text-align: right;
-    margin-left: 75%;
+    margin-left: 4%;
     margin-top: 30px;
 }
 .meeting-right-float-screen {
@@ -37,10 +37,10 @@
     border-radius: 10px 0px 0px 10px;
 }
 .person-wrapper {
-    background-image: url(/assets/meeting-image1.png);
+    background-image: url(/assets/lady2.png);
     background-size: 100% 100%;
     width: 207px;
-    height: 157px;
+    height: 21%;
     border-radius: 15px;
     margin: 0 auto;
     box-shadow: 4px 4.5px #00000012;
@@ -99,18 +99,62 @@ span.name.element {
 .call-button-wrapper {
     margin: 0 auto;
     text-align: center;
-    margin-top: 40%;
+    position: absolute;
+    bottom: 80px;
+    left: 35%;
 }
 span.call-button img {
     width: 72px;
     height: 72px;
 }
 span.call-button {
-    margin-right: 10px;
+    margin-right: 25px;
 }
 span.element.mic img {
     width: 12px;
 }
 span.element.mic.mic-off img {
     width: 15px;
+}
+span.call-button.group {
+    position: relative;
+}
+
+span.parti-number {
+    position: absolute;
+    right: 12px;
+    top: -16px;
+    font-size: 12px;
+    color: #00adb5;
+    font-family: helvetica;
+    font-weight: bold;
+}
+.meeting-main-screen.no-bg {
+    background-image: none;
+}
+.no-video-wrapper {
+    position: absolute;
+    top: 15%;
+    left: 37%;
+    border: 1px solid #00adb5;
+    border-radius: 25px;
+    box-shadow: 5px 5.5px #00000029;
+}
+img.no-video-image {
+    padding: 80px 135px 50px 135px;
+}
+.no-video-elements {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.no-video-elements img {
+    width: 25px;
+}
+.no-video-elements span.element.mic img {
+    width: 15px;
+}
+.no-video-elements span.name.element {
+    font-size: 20px;
+    font-family: HelveticaNeueLTProItcondensed;
+    vertical-align: middle;
 }

@@ -15,6 +15,8 @@ import { PasswordComponent } from './password/password.component';
 import { MeetingScreenComponent } from './meeting-screen/meeting-screen.component';
 import { ChatBoxComponent } from './chat-box/chat-box.component';
 import { ParticipantBoxComponent } from './participant-box/participant-box.component';
+import { ShareScreenComponent } from './share-screen/share-screen.component';
+import { AddInviteComponent } from './add-invite/add-invite.component';
 
 
 @NgModule({
@@ -31,7 +33,9 @@ import { ParticipantBoxComponent } from './participant-box/participant-box.compo
     PasswordComponent,
     MeetingScreenComponent,
     ChatBoxComponent,
-    ParticipantBoxComponent
+    ParticipantBoxComponent,
+    ShareScreenComponent,
+    AddInviteComponent
   ],
   imports: [
     BrowserModule,

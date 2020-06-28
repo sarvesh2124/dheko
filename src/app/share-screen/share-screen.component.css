@@ -1,0 +1,98 @@
+.share-wrapper {
+    position: absolute;
+    width: 958px;
+    height: 470px;
+    background: #ffffffc9;
+    left: 20%;
+    top: 25px;
+    z-index: 1;
+}
+.share-header {
+    padding: 15px;
+}
+.share-header div {
+    display: inline-block;
+}
+.share-dheko-logo {
+    width: 10%;
+}
+
+.share-text {
+    width: 87%;
+    text-align: center;
+}
+
+.share-close {
+    width: 18px;
+    text-align: right;
+}
+
+.share-dheko-logo img {
+    width: 90px;
+}
+.share-text {
+    color: #707070;
+    vertical-align: middle;
+    font-size: 22px;
+    font-family: HelveticaNeueLTProRoman;
+}
+.share-text-header {
+    color: #707070;
+    font-size: 19px;
+    font-family: HelveticaNeueLTProItcondensed;
+    margin: 0 auto;
+    width: 780px;
+    padding-right: 45px;
+}
+.share-nav-element {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    color: #707070;
+    font-family: HelveticaNeueLTProIt;
+    font-weight: bold;
+}
+.share-nav {
+    margin: 0 auto;
+    width: 80%;
+}
+.share-nav-element.active {
+    color: #00adb5;
+    /* text-decoration: underline; */
+    padding: 10px 0px;
+    border-bottom: 2px #00adb5 solid;
+}
+img.share-section-img {
+    width: 50%;
+}
+
+.share-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px #00adb5 solid;
+}
+button.btn {
+    width: 15%;
+    height: 33px;
+    vertical-align: middle;
+    font-family: HelveticaNeueLTProItcondensed;
+    font-size: 20px;
+    padding: 0px;
+}
+
+.share-button-section {
+    width: 90%;
+    text-align: right;
+    margin-top: 8px;
+}
+button.btn.share-button {
+    margin-right: 10px;
+}
+
+button.btn.cancel-button {
+    color: #00adb5;
+    background: #fff;
+    border: 1px #00adb5 solid;
+}

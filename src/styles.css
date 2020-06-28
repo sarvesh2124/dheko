@@ -2,7 +2,7 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 body {
     font-family: helvetica;
-    background-image: url(assets/landingPage1.jpg);
+    background-image: url(/assets/hexagonSmall1.jpg);
     background-size: 100% auto;
 }
 @font-face {
@@ -16,6 +16,10 @@ body {
 @font-face {
     font-family: HelveticaNeueLTProIt;
     src: url(assets/font/HelveticaNeueLTProlt.otf)
+}
+@font-face {
+    font-family: HelveticaNeueLTProItcondensed;
+    src: url(assets/font/HelveticaNeueLTProCn.otf)
 }
 html {
     height: 100%;
