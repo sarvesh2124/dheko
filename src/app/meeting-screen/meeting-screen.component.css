@@ -31,9 +31,9 @@
 .meeting-right-float-screen {
     position: absolute;
     right: 0;
-    top: 0;
-    height: 100vh;
-    background: #00adb59e;
+    top: 85px;
+    height: 80vh;
+    background: #11aeb5;
     border-radius: 10px 0px 0px 10px;
 }
 .person-wrapper {
@@ -65,19 +65,17 @@ span.name.element {
     font-family: HelveticaNeueLTProIt;
 }
 .float-screen-wrapper {
-    margin-top: 50px;
+    margin-top: 10px;
     text-align: center;
-    padding: 10px;
+    padding: 3px;
 }
 
-.float-image img {
-    width: 70%;
-}
+
 
 .float-text {
     font-family: HelveticaNeueLTProIt;
-    font-size: 15px;
-    color: #F5F5F5;
+    font-size: 14px;
+    color: #f5f5f5de;
 }
 
 .image-text-wrapper {
@@ -85,31 +83,34 @@ span.name.element {
 }
 .plus-icon {
     text-align: center;
-    width: 40px;
+    width: 37px;
     position: absolute;
-    bottom: 90px;
-    right: 15px;
+    bottom: 72px;
+    right: 0px;
+    height: 12vh;
+    border-radius: 10px 0px 0px 10px;
+    padding: 46px;
 }
 .plus-icon img {
-    border-radius: 25px;
-    background-color: #fff;
-    width: 100%;
-    border: .5px #42b7bd solid;
+    
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
 .call-button-wrapper {
     margin: 0 auto;
     text-align: center;
     position: absolute;
     bottom: 80px;
-    left: 37%;
+    left: 35%;
+    padding: 5px 30px;
+    background-color: #ffffffa6;
 }
 span.call-button img {
     width: 62px;
     height: 62px;
 }
-span.call-button {
-    margin-right: 25px;
-}
+
 span.element.mic img {
     width: 12px;
 }
@@ -161,4 +162,69 @@ img.no-video-image {
 span.call-button img, .image-text-wrapper, .plus-icon
 {
     cursor: pointer;
+}
+.message-wrapper {
+    position: absolute;
+    top: 25px;
+    right: 0px;
+}
+
+span.msg-txt {
+    color: #707070;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.message {
+    background-color: #ffffffb8;
+    padding:10px 70px 10px 30px;
+    cursor: pointer;
+}
+span.call-button.end {
+    margin-right: 0px;
+}
+.button-wrapper {
+    display: inline-block;
+    margin-right: 35px;
+}
+span.btn-txt {
+    cursor: pointer;
+    color: #707070;
+}
+.button-wrapper.end {
+    margin-right: 0px;
+}
+.left-arrow.arrow {
+    position: absolute;
+    top: 40%;
+    left: 7%;
+}
+.bottom-arrow.arrow {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+}
+
+.top-arrow.arrow {
+    position: absolute;
+    top: 6%;
+    left: 50%;
+}
+
+.right-arrow.arrow {
+    position: absolute;
+    right: 7%;
+    top: 40%;
+}
+.left-arrow.arrow.move-left-arrow {
+    left: 33%;
+}
+
+.top-arrow.arrow.move-top-arrow {
+    left: 62%;
+}
+
+.bottom-arrow.arrow.move-bottom-arrow {
+    left: 62%;
 }

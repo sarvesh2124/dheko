@@ -49,7 +49,7 @@
         <div class="float-screen-wrapper">
             <div class="image-text-wrapper" (click)="invite()">
                 <div class="float-image">
-                    <img src="assets/group-line.svg">
+                    <img src="assets/Group 11744.png" class="invite-img">
                 </div>
                 <div class="float-text">
                     Invite
@@ -57,36 +57,46 @@
             </div>
             <div class="image-text-wrapper" (click)="record()">
                 <div class="float-image">
-                    <img src="assets/record-circle-line (1).svg" *ngIf="!recordToggle">
-                    <img src="assets/record-On.png" *ngIf="recordToggle">
+                    <img src="assets/Group 11751.png" *ngIf="!recordToggle" class="rec-img">
+                    <img src="assets/Group 11733.png" *ngIf="recordToggle" class="rec-img">
                 </div>
                 <div class="float-text">
                     Record
                 </div>
             </div>
-            <div class="image-text-wrapper" (click)="layout()">
+            <div class="image-text-wrapper" (click)="raiseHand()">
                 <div class="float-image">
-                    <img src="assets/layout-4-line.svg">
+                    <img src="assets/hand1.png" *ngIf="!handToggle" class="hand-img">
+                    <img src="assets/hand-red.png" *ngIf="handToggle" class="hand-img">
                 </div>
                 <div class="float-text">
-                    Layout
+                    Raise Hand
+                </div>
+            </div>
+            <div class="image-text-wrapper" (click)="layout()">
+                <div class="float-image">
+                    <img src="assets/view.png" class="view-img">
+                </div>
+                <div class="float-text">
+                    View
                 </div>
             </div>
             <div class="image-text-wrapper" (click)="lock()">
                 <div class="float-image">
-                    <img src="assets/lock-2-line.svg" *ngIf="!lockToggle">
-                    <img src="assets/lock-2-line.png" *ngIf="lockToggle">
+                    <img src="assets/Group 11752.png" *ngIf="!lockToggle" class="lock-img">
+                    <img src="assets/Group 11747.png" *ngIf="lockToggle" class="lock-img">
                 </div>
                 <div class="float-text">
                     Lock
                 </div>
             </div>
-            <div class="image-text-wrapper">
+            <div class="image-text-wrapper" (click)="pan()">
                 <div class="float-image">
-                    <img src="assets/tools-fill.svg">
+                    <img src="assets/pan.png" *ngIf="!panToggle" class="pan-img">
+                    <img src="assets/pan-red.png" *ngIf="panToggle" class="pan-img">
                 </div>
                 <div class="float-text">
-                    Tools
+                    Pan/Tilt
                 </div>
             </div>
         </div>
@@ -104,24 +114,82 @@
                 <span class="name element">Nandi</span>
             </div>
         </div>
+        <!-- <div class="call-button-wrapper">
+            <span class="call-button mic" (click)="mic()"><img src="assets/Group 11639.png" *ngIf="!micToggle"><img
+                    src="assets/Group 11790.png" *ngIf="micToggle"><span class="btn-txt">Mute</span></span>
+            <span class="call-button video" (click)="video()"><img src="assets/Group 11640.png" *ngIf="!videoToggle"><img
+                    src="assets/Group 11786.png" *ngIf="videoToggle"><span class="btn-txt">Video off</span></span>
+            <span class="call-button group" (click)="partcipantBox()"><img src="assets/Group 11641.png"
+                  *ngIf="!partcipantBoxToggle" class="partcipant-number"> 
+                <img src="assets/Group 11787.png" *ngIf="partcipantBoxToggle"><span class="btn-txt">Participants</span></span>
+            <span class="call-button share" (click)="share()"><img src="assets/Group 11647.png" *ngIf="!shareToggle"><img
+                    src="assets/Group 11788.png" *ngIf="shareToggle"><span class="btn-txt">Chat</span></span>
+            <span class="call-button chat" (click)="chatBox()"><img src="assets/Group 11648.png" *ngIf="!chatBoxToggle"><img
+                    src="assets/Group 11789.png" *ngIf="chatBoxToggle"><span class="btn-txt">Share Screen</span></span>
+            <span class="call-button end"><img src="assets/Group 11644.png"><span class="btn-txt">End</span></span>
+        </div> -->
         <div class="call-button-wrapper">
-            <span class="call-button mic" (click)="mic()"><img src="assets/Group 11124.png" *ngIf="!micToggle"><img
-                    src="assets/Group 11124_1.png" *ngIf="micToggle"></span>
-            <span class="call-button video" (click)="video()"><img src="assets/Group 11125.png" *ngIf="!videoToggle"><img
-                    src="assets/Group 11131_2.png" *ngIf="videoToggle"></span>
-            <span class="call-button group" (click)="partcipantBox()"><img src="assets/Group 11126.png"
-                  *ngIf="!partcipantBoxToggle" class="partcipant-number">  <!-- <span class="parti-number"
-                    *ngIf="!partcipantBoxToggle">24</span> -->
-                <img src="assets/Group 11126_3.png" *ngIf="partcipantBoxToggle"></span>
-            <span class="call-button share" (click)="share()"><img src="assets/Group 11127.png" *ngIf="!shareToggle"><img
-                    src="assets/Group 11127_4.png" *ngIf="shareToggle"></span>
-            <span class="call-button chat" (click)="chatBox()"><img src="assets/Group 11128.png" *ngIf="!chatBoxToggle"><img
-                    src="assets/Group 11128_5.png" *ngIf="chatBoxToggle"></span>
-            <span class="call-button end"><img src="assets/Group 11129.png"></span>
+            <div class="button-wrapper" (click)="mic()">
+                <span class="call-button mic"><img src="assets/Group 11639.png" *ngIf="!micToggle"><img
+                    src="assets/Group 11790.png" *ngIf="micToggle"></span>
+                <div><span class="btn-txt" *ngIf="!micToggle">Mute</span><span class="btn-txt" *ngIf="micToggle">Unmute</span></div>
+            </div>
+            <div class="button-wrapper" (click)="video()">
+                <span class="call-button video"><img src="assets/Group 11640.png" *ngIf="!videoToggle"><img
+                    src="assets/Group 11786.png" *ngIf="videoToggle"></span>
+                <div><span class="btn-txt">Video off</span></div>
+            </div>
+            <div class="button-wrapper" (click)="partcipantBox()">
+                <span class="call-button group"><img src="assets/Group 11641.png"
+                    *ngIf="!partcipantBoxToggle" class="partcipant-number">  <!-- <span class="parti-number"
+                      *ngIf="!partcipantBoxToggle">24</span> -->
+                  <img src="assets/Group 11787.png" *ngIf="partcipantBoxToggle"></span>
+                  <div><span class="btn-txt">Participants</span></div>
+            </div>
+            <div class="button-wrapper" (click)="chatBox()">
+                <span class="call-button chat"><img src="assets/Group 11648.png" *ngIf="!chatBoxToggle"><img
+                    src="assets/Group 11789.png" *ngIf="chatBoxToggle"></span>
+                    <div><span class="btn-txt">Chat</span></div>
+            </div>
+            <div class="button-wrapper" (click)="share()">
+                <span class="call-button share"><img src="assets/Group 11647.png" *ngIf="!shareToggle"><img
+                    src="assets/Group 11788.png" *ngIf="shareToggle"></span>
+                <div><span class="btn-txt">Share Screen</span></div>
+            </div>
+            <div class="button-wrapper end">
+                <span class="call-button end"><img src="assets/Group 11644.png"></span>
+                <div><span class="btn-txt">End</span></div>
+            </div>
         </div>
         <div class="plus-icon" (click)="floatPanel()">
-            <img src="assets/add-line.svg" *ngIf="!floatpanelToggle">
-            <img src="assets/minus.png" *ngIf="floatpanelToggle">
+            <img src="assets/Group 11764.png" *ngIf="!floatpanelToggle">
+            <img src="assets/Group 11765.png" *ngIf="floatpanelToggle">
         </div>
+    </div>
+    <div class="message-wrapper">
+        <div class="message" *ngIf="recordToggle" (click)="record()">
+            <img src="assets/Group 11733.png"> <span class="msg-txt">Stop Recording</span>
+        </div>
+        <div class="message" *ngIf="handToggle" (click)="raiseHand()">
+            <img src="assets/hand-blue.png"> <span class="msg-txt">Lower Hand</span>
+        </div>
+        <div class="message" *ngIf="lockToggle" (click)="lock()">
+            <img src="assets/Group 11791.png"> <span class="msg-txt">Unlock Meeting</span>
+        </div>
+        <div class="message" *ngIf="panToggle" (click)="pan()">
+            <img src="assets/Group 11743.png"> <span class="msg-txt">Robot Home Position</span>
+        </div>
+    </div>
+    <div class="left-arrow arrow" [class.move-left-arrow]="partcipantBoxToggle || chatBoxToggle || layoutToggle" *ngIf="panToggle">
+        <img src="assets/Subtraction 5.png">
+    </div>
+    <div class="right-arrow arrow" [class.move-right-arrow]="partcipantBoxToggle || chatBoxToggle || layoutToggle" *ngIf="panToggle">
+        <img src="assets/Subtraction 7.png">
+    </div>
+    <div class="top-arrow arrow" [class.move-top-arrow]="partcipantBoxToggle || chatBoxToggle || layoutToggle" *ngIf="panToggle">
+        <img src="assets/Subtraction 6.png">
+    </div>
+    <div class="bottom-arrow arrow" [class.move-bottom-arrow]="partcipantBoxToggle || chatBoxToggle || layoutToggle" *ngIf="panToggle">
+        <img src="assets/Subtraction 8.png">
     </div>
 </div>

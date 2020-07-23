@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sign-up.component.css']
 })
 export class SignUpComponent implements OnInit {
+  passwordEye: boolean;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+  passwordToogle(input: any) {
+    this.passwordEye = !this.passwordEye;
+    input.type = input.type === 'password' ? 'text' : 'password';
   }
 
 }

@@ -16,12 +16,18 @@ export class MeetingScreenComponent implements OnInit {
   recordToggle: boolean;
   lockToggle: boolean;
   inviteToggle: boolean;
+  panToggle: boolean;
+  handToggle: any;
   constructor() { }
 
   ngOnInit(): void {
   }
   floatPanel() {
-    this.floatpanelToggle = !this.floatpanelToggle
+    this.floatpanelToggle = !this.floatpanelToggle;
+    this.recordToggle = false;
+    this.handToggle = false;
+    this.lockToggle = false;
+    this.panToggle = false;
   }
   chatBox() {
     this.chatBoxToggle = !this.chatBoxToggle;
@@ -56,12 +62,22 @@ export class MeetingScreenComponent implements OnInit {
   }
   record() {
     this.recordToggle = !this.recordToggle;
+    this.floatpanelToggle = false;
   }
   lock() {
     this.lockToggle = !this.lockToggle;
+    this.floatpanelToggle = false;
   }
   invite() {
     this.inviteToggle = !this.inviteToggle;
     this.shareToggle = false;
+  }
+  pan() {
+    this.panToggle = !this.panToggle;
+    this.floatpanelToggle = false;
+  }
+  raiseHand() {
+    this.handToggle = !this.handToggle;
+    this.floatpanelToggle = false;
   }
 }
